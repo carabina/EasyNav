@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF63B07620173AC4000892A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63B07520173AC4000892A9 /* AppDelegate.swift */; };
+		FF63B07820173AC4000892A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63B07720173AC4000892A9 /* ViewController.swift */; };
+		FF63B07B20173AC4000892A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF63B07920173AC4000892A9 /* Main.storyboard */; };
+		FF63B08020173AC4000892A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF63B07E20173AC4000892A9 /* LaunchScreen.storyboard */; };
+		FF63B08B20173AC4000892A9 /* EasyNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63B08A20173AC4000892A9 /* EasyNavTests.swift */; };
+		FFD10A3B20174D6F00FF5417 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD10A3A20174D6F00FF5417 /* RoundButton.swift */; };
+		FFD10A3F20177B6200FF5417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD10A3E20177B6200FF5417 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF63B08720173AC4000892A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF63B06A20173AC4000892A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF63B07120173AC4000892A9;
+			remoteInfo = EasyNav;
+		};
+		FF63B09220173AC4000892A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF63B06A20173AC4000892A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF63B07120173AC4000892A9;
+			remoteInfo = EasyNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF63B07520173AC4000892A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF63B07720173AC4000892A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF63B07A20173AC4000892A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF63B07F20173AC4000892A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF63B08120173AC4000892A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF63B08A20173AC4000892A9 /* EasyNavTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyNavTests.swift; sourceTree = "<group>"; };
+		FF63B08C20173AC4000892A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD10A36201744A200FF5417 /* EasyNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD10A3A20174D6F00FF5417 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		FFD10A3E20177B6200FF5417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFD10A4220177C5800FF5417 /* EasyNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EasyNavTests.xctest; path = "/Users/elenaverona/Documents/framework-ios/EasyNav2/EasyNav/build/Debug-iphoneos/EasyNavTests.xctest"; sourceTree = "<absolute>"; };
+		FFD10A4320177C5800FF5417 /* EasyNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EasyNavUITests.xctest; path = "/Users/elenaverona/Documents/framework-ios/EasyNav2/EasyNav/build/Debug-iphoneos/EasyNavUITests.xctest"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF63B06F20173AC4000892A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF63B08320173AC4000892A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF63B08E20173AC4000892A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF63B06920173AC4000892A9 = {
+			isa = PBXGroup;
+			children = (
+				FF63B07420173AC4000892A9 /* EasyNav */,
+				FF63B08920173AC4000892A9 /* EasyNavTests */,
+				FFD10A2F20173FDD00FF5417 /* Products */,
+				FFD10A36201744A200FF5417 /* EasyNav.app */,
+			);
+			sourceTree = "<group>";
+		};
+		FF63B07420173AC4000892A9 /* EasyNav */ = {
+			isa = PBXGroup;
+			children = (
+				FF63B07520173AC4000892A9 /* AppDelegate.swift */,
+				FF63B07720173AC4000892A9 /* ViewController.swift */,
+				FF63B07920173AC4000892A9 /* Main.storyboard */,
+				FFD10A3E20177B6200FF5417 /* Assets.xcassets */,
+				FF63B07E20173AC4000892A9 /* LaunchScreen.storyboard */,
+				FF63B08120173AC4000892A9 /* Info.plist */,
+				FFD10A3A20174D6F00FF5417 /* RoundButton.swift */,
+			);
+			path = EasyNav;
+			sourceTree = "<group>";
+		};
+		FF63B08920173AC4000892A9 /* EasyNavTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF63B08A20173AC4000892A9 /* EasyNavTests.swift */,
+				FF63B08C20173AC4000892A9 /* Info.plist */,
+			);
+			path = EasyNavTests;
+			sourceTree = "<group>";
+		};
+		FFD10A2F20173FDD00FF5417 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF63B07120173AC4000892A9 /* EasyNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF63B09A20173AC4000892A9 /* Build configuration list for PBXNativeTarget "EasyNav" */;
+			buildPhases = (
+				FF63B06E20173AC4000892A9 /* Sources */,
+				FF63B06F20173AC4000892A9 /* Frameworks */,
+				FF63B07020173AC4000892A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyNav;
+			productName = EasyNav;
+			productReference = FFD10A36201744A200FF5417 /* EasyNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF63B08520173AC4000892A9 /* EasyNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF63B09D20173AC4000892A9 /* Build configuration list for PBXNativeTarget "EasyNavTests" */;
+			buildPhases = (
+				FF63B08220173AC4000892A9 /* Sources */,
+				FF63B08320173AC4000892A9 /* Frameworks */,
+				FF63B08420173AC4000892A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF63B08820173AC4000892A9 /* PBXTargetDependency */,
+			);
+			name = EasyNavTests;
+			productName = EasyNavTests;
+			productReference = FFD10A4220177C5800FF5417 /* EasyNavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF63B09020173AC4000892A9 /* EasyNavUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF63B0A020173AC4000892A9 /* Build configuration list for PBXNativeTarget "EasyNavUITests" */;
+			buildPhases = (
+				FF63B08D20173AC4000892A9 /* Sources */,
+				FF63B08E20173AC4000892A9 /* Frameworks */,
+				FF63B08F20173AC4000892A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF63B09320173AC4000892A9 /* PBXTargetDependency */,
+			);
+			name = EasyNavUITests;
+			productName = EasyNavUITests;
+			productReference = FFD10A4320177C5800FF5417 /* EasyNavUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF63B06A20173AC4000892A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					FF63B07120173AC4000892A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FF63B08520173AC4000892A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF63B07120173AC4000892A9;
+					};
+					FF63B09020173AC4000892A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF63B07120173AC4000892A9;
+					};
+				};
+			};
+			buildConfigurationList = FF63B06D20173AC4000892A9 /* Build configuration list for PBXProject "EasyNav" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF63B06920173AC4000892A9;
+			productRefGroup = FF63B06920173AC4000892A9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF63B07120173AC4000892A9 /* EasyNav */,
+				FF63B08520173AC4000892A9 /* EasyNavTests */,
+				FF63B09020173AC4000892A9 /* EasyNavUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF63B07020173AC4000892A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF63B08020173AC4000892A9 /* LaunchScreen.storyboard in Resources */,
+				FFD10A3F20177B6200FF5417 /* Assets.xcassets in Resources */,
+				FF63B07B20173AC4000892A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF63B08420173AC4000892A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF63B08F20173AC4000892A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF63B06E20173AC4000892A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD10A3B20174D6F00FF5417 /* RoundButton.swift in Sources */,
+				FF63B07820173AC4000892A9 /* ViewController.swift in Sources */,
+				FF63B07620173AC4000892A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF63B08220173AC4000892A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF63B08B20173AC4000892A9 /* EasyNavTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF63B08D20173AC4000892A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF63B08820173AC4000892A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF63B07120173AC4000892A9 /* EasyNav */;
+			targetProxy = FF63B08720173AC4000892A9 /* PBXContainerItemProxy */;
+		};
+		FF63B09320173AC4000892A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF63B07120173AC4000892A9 /* EasyNav */;
+			targetProxy = FF63B09220173AC4000892A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF63B07920173AC4000892A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF63B07A20173AC4000892A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF63B07E20173AC4000892A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF63B07F20173AC4000892A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF63B09820173AC4000892A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF63B09920173AC4000892A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF63B09B20173AC4000892A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = EasyNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "group-ios.EasyNav";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF63B09C20173AC4000892A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = EasyNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "group-ios.EasyNav";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF63B09E20173AC4000892A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "group-ios.EasyNavTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyNav.app/EasyNav";
+			};
+			name = Debug;
+		};
+		FF63B09F20173AC4000892A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyNavTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "group-ios.EasyNavTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyNav.app/EasyNav";
+			};
+			name = Release;
+		};
+		FF63B0A120173AC4000892A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "group-ios.EasyNavUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyNav;
+			};
+			name = Debug;
+		};
+		FF63B0A220173AC4000892A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "group-ios.EasyNavUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyNav;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF63B06D20173AC4000892A9 /* Build configuration list for PBXProject "EasyNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF63B09820173AC4000892A9 /* Debug */,
+				FF63B09920173AC4000892A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF63B09A20173AC4000892A9 /* Build configuration list for PBXNativeTarget "EasyNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF63B09B20173AC4000892A9 /* Debug */,
+				FF63B09C20173AC4000892A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF63B09D20173AC4000892A9 /* Build configuration list for PBXNativeTarget "EasyNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF63B09E20173AC4000892A9 /* Debug */,
+				FF63B09F20173AC4000892A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF63B0A020173AC4000892A9 /* Build configuration list for PBXNativeTarget "EasyNavUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF63B0A120173AC4000892A9 /* Debug */,
+				FF63B0A220173AC4000892A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF63B06A20173AC4000892A9 /* Project object */;
+}
