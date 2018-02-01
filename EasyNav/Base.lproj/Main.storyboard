@@ -18,30 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1v-X5-WaK" customClass="RoundButton" customModule="EasyNav">
-                                <rect key="frame" x="162" y="592" width="50" height="50"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="Zgz-4m-eeE"/>
-                                    <constraint firstAttribute="height" constant="50" id="cHm-6r-3L9"/>
-                                </constraints>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" image="menu_on"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="25"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                        <real key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" cocoaTouchSystemColor="darkTextColor"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="moreButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lZz-bo-1KW"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wjz-LG-l8O" customClass="RoundButton" customModule="EasyNav">
                                 <rect key="frame" x="87" y="542" width="50" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -114,6 +90,30 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="contactButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gYZ-h1-K62"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1v-X5-WaK" customClass="RoundButton" customModule="EasyNav">
+                                <rect key="frame" x="162" y="592" width="50" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Zgz-4m-eeE"/>
+                                    <constraint firstAttribute="height" constant="50" id="cHm-6r-3L9"/>
+                                </constraints>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" image="menu_on"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="moreButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lZz-bo-1KW"/>
                                 </connections>
                             </button>
                         </subviews>

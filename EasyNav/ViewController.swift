@@ -15,9 +15,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var contactButton: UIButton!
     @IBOutlet weak var messageButton: UIButton!
     
+    var phoneButtonCenter: CGPoint!
+    var contactButtonCenter: CGPoint!
+    var messageButtonCenter: CGPoint!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        phoneButtonCenter = phoneButton.center
+        contactButtonCenter = contactButton.center
+        messageButtonCenter = messageButton.center
+        
+        self.phoneButton.alpha = 0
+        self.contactButton.alpha = 0
+        self.messageButton.alpha = 0
+        
+        phoneButton.center = moreButton.center
+        contactButton.center = moreButton.center
+        messageButton.center = moreButton.center
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -28,6 +42,25 @@ class ViewController: UIViewController {
     }
 
     @IBAction func moreButtonClick(_ sender: UIButton) {
+        if moreButton.currentImage != #imageLiteral(resourceName: "menu_off"){
+            UIView.animate(withDuration: 0.3, animations: {
+                self.phoneButton.alpha = 1
+                self.contactButton.alpha = 1
+                self.messageButton.alpha = 1
+                self.phoneButton.center = self.phoneButtonCenter
+                self.contactButton.center = self.contactButtonCenter
+                self.messageButton.center = self.messageButtonCenter
+            })
+        }else{
+            UIView.animate(withDuration: 0.3, animations: {
+                self.phoneButton.alpha = 0
+                self.contactButton.alpha = 0
+                self.messageButton.alpha = 0
+                self.phoneButton.center = self.moreButton.center
+                self.contactButton.center = self.moreButton.center
+                self.messageButton.center = self.moreButton.center
+            })
+        }
         buttonClick(button: sender, onImage: #imageLiteral(resourceName: "menu_on"), offImage: #imageLiteral(resourceName: "menu_off"))
     }
     
@@ -44,7 +77,7 @@ class ViewController: UIViewController {
     }
     
     func buttonClick(button: UIButton, onImage: UIImage, offImage: UIImage){
-        if button.backgroundColor == UIColor.white {
+        if button.currentImage == onImage{
             button.backgroundColor = UIColor.black
             button.tintColor = UIColor.blue
             button.setImage(offImage, for: .normal)
