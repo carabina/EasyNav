@@ -15,10 +15,9 @@
 		FF7F302D2027846C001BBAD0 /* NavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7F302C2027846C001BBAD0 /* NavTests.swift */; };
 		FF7F30382027846C001BBAD0 /* NavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7F30372027846C001BBAD0 /* NavUITests.swift */; };
 		FF9F93F6202793A400C51895 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9F93F5202793A400C51895 /* RoundButton.swift */; };
-		FFCCB3D220279DFC00B2DEB2 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCB3D020279DFC00B2DEB2 /* NavView.swift */; };
-		FFCCB3D320279DFC00B2DEB2 /* NavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFCCB3D120279DFC00B2DEB2 /* NavView.xib */; };
 		FFCCB3E220279EF900B2DEB2 /* FrameNav.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCCB3E120279EF900B2DEB2 /* FrameNav.framework */; };
 		FFCCB3E320279EF900B2DEB2 /* FrameNav.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFCCB3E120279EF900B2DEB2 /* FrameNav.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFCCB3EA2027ABC700B2DEB2 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCCB3E82027ABC700B2DEB2 /* NavView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,9 +66,9 @@
 		FF7F30372027846C001BBAD0 /* NavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavUITests.swift; sourceTree = "<group>"; };
 		FF7F30392027846C001BBAD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF9F93F5202793A400C51895 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
-		FFCCB3D020279DFC00B2DEB2 /* NavView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
-		FFCCB3D120279DFC00B2DEB2 /* NavView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavView.xib; sourceTree = "<group>"; };
 		FFCCB3E120279EF900B2DEB2 /* FrameNav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameNav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCCB3E82027ABC700B2DEB2 /* NavView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		FFCCB3E92027ABC700B2DEB2 /* NavView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,10 +124,10 @@
 				FF7F30172027846B001BBAD0 /* AppDelegate.swift */,
 				FF7F30192027846B001BBAD0 /* ViewController.swift */,
 				FF7F301B2027846B001BBAD0 /* Main.storyboard */,
+				FFCCB3E82027ABC700B2DEB2 /* NavView.swift */,
+				FFCCB3E92027ABC700B2DEB2 /* NavView.xib */,
 				FF7F301E2027846B001BBAD0 /* Assets.xcassets */,
 				FF7F30202027846B001BBAD0 /* LaunchScreen.storyboard */,
-				FFCCB3D020279DFC00B2DEB2 /* NavView.swift */,
-				FFCCB3D120279DFC00B2DEB2 /* NavView.xib */,
 				FF7F30232027846B001BBAD0 /* Info.plist */,
 				FF9F93F5202793A400C51895 /* RoundButton.swift */,
 			);
@@ -261,7 +260,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFCCB3D320279DFC00B2DEB2 /* NavView.xib in Resources */,
 				FF7F30222027846B001BBAD0 /* LaunchScreen.storyboard in Resources */,
 				FF7F301F2027846B001BBAD0 /* Assets.xcassets in Resources */,
 				FF7F301D2027846B001BBAD0 /* Main.storyboard in Resources */,
@@ -289,9 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCCB3EA2027ABC700B2DEB2 /* NavView.swift in Sources */,
 				FF9F93F6202793A400C51895 /* RoundButton.swift in Sources */,
 				FF7F301A2027846B001BBAD0 /* ViewController.swift in Sources */,
-				FFCCB3D220279DFC00B2DEB2 /* NavView.swift in Sources */,
 				FF7F30182027846B001BBAD0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
