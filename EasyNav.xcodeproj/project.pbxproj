@@ -7,122 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF63B07620173AC4000892A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63B07520173AC4000892A9 /* AppDelegate.swift */; };
-		FF63B07820173AC4000892A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63B07720173AC4000892A9 /* ViewController.swift */; };
-		FF63B07B20173AC4000892A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF63B07920173AC4000892A9 /* Main.storyboard */; };
-		FF63B08020173AC4000892A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF63B07E20173AC4000892A9 /* LaunchScreen.storyboard */; };
-		FF63B08B20173AC4000892A9 /* EasyNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63B08A20173AC4000892A9 /* EasyNavTests.swift */; };
-		FFD10A3B20174D6F00FF5417 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD10A3A20174D6F00FF5417 /* RoundButton.swift */; };
-		FFD10A3F20177B6200FF5417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD10A3E20177B6200FF5417 /* Assets.xcassets */; };
+		FF3C054420271808007FF078 /* menuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF3C054620271808007FF078 /* menuViewController.xib */; };
+		FF58B62A20270D1E00CD735C /* EasyNav.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF58B62020270D1E00CD735C /* EasyNav.framework */; };
+		FF58B62F20270D1E00CD735C /* EasyNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF58B62E20270D1E00CD735C /* EasyNavTests.swift */; };
+		FF58B63120270D1E00CD735C /* EasyNav.h in Headers */ = {isa = PBXBuildFile; fileRef = FF58B62320270D1E00CD735C /* EasyNav.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF58B63C20270D7200CD735C /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF58B63A20270D7200CD735C /* menuViewController.swift */; };
+		FFAA5FB720271020007AB59B /* iconMenu.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFAA5FB620271020007AB59B /* iconMenu.xcassets */; };
+		FFAA5FC32027121B007AB59B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAA5FC22027121B007AB59B /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FF63B08720173AC4000892A9 /* PBXContainerItemProxy */ = {
+		FF58B62B20270D1E00CD735C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FF63B06A20173AC4000892A9 /* Project object */;
+			containerPortal = FF58B61720270D1E00CD735C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FF63B07120173AC4000892A9;
-			remoteInfo = EasyNav;
-		};
-		FF63B09220173AC4000892A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FF63B06A20173AC4000892A9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FF63B07120173AC4000892A9;
+			remoteGlobalIDString = FF58B61F20270D1E00CD735C;
 			remoteInfo = EasyNav;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FF63B07520173AC4000892A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF63B07720173AC4000892A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FF63B07A20173AC4000892A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FF63B07F20173AC4000892A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FF63B08120173AC4000892A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF63B08A20173AC4000892A9 /* EasyNavTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyNavTests.swift; sourceTree = "<group>"; };
-		FF63B08C20173AC4000892A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFD10A36201744A200FF5417 /* EasyNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFD10A3A20174D6F00FF5417 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
-		FFD10A3E20177B6200FF5417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FFD10A4220177C5800FF5417 /* EasyNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EasyNavTests.xctest; path = "/Users/elenaverona/Documents/framework-ios/EasyNav2/EasyNav/build/Debug-iphoneos/EasyNavTests.xctest"; sourceTree = "<absolute>"; };
-		FFD10A4320177C5800FF5417 /* EasyNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EasyNavUITests.xctest; path = "/Users/elenaverona/Documents/framework-ios/EasyNav2/EasyNav/build/Debug-iphoneos/EasyNavUITests.xctest"; sourceTree = "<absolute>"; };
+		FF3C054520271808007FF078 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/menuViewController.xib; sourceTree = "<group>"; };
+		FF58B62020270D1E00CD735C /* EasyNav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyNav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF58B62320270D1E00CD735C /* EasyNav.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyNav.h; sourceTree = "<group>"; };
+		FF58B62420270D1E00CD735C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF58B62920270D1E00CD735C /* EasyNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF58B62E20270D1E00CD735C /* EasyNavTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyNavTests.swift; sourceTree = "<group>"; };
+		FF58B63020270D1E00CD735C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF58B63A20270D7200CD735C /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		FFAA5FB620271020007AB59B /* iconMenu.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = iconMenu.xcassets; sourceTree = "<group>"; };
+		FFAA5FC22027121B007AB59B /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FF63B06F20173AC4000892A9 /* Frameworks */ = {
+		FF58B61C20270D1E00CD735C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF63B08320173AC4000892A9 /* Frameworks */ = {
+		FF58B62620270D1E00CD735C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF63B08E20173AC4000892A9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				FF58B62A20270D1E00CD735C /* EasyNav.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FF63B06920173AC4000892A9 = {
+		FF58B61620270D1E00CD735C = {
 			isa = PBXGroup;
 			children = (
-				FF63B07420173AC4000892A9 /* EasyNav */,
-				FF63B08920173AC4000892A9 /* EasyNavTests */,
-				FFD10A2F20173FDD00FF5417 /* Products */,
-				FFD10A36201744A200FF5417 /* EasyNav.app */,
+				FF58B62220270D1E00CD735C /* EasyNav */,
+				FF58B62D20270D1E00CD735C /* EasyNavTests */,
+				FF58B62120270D1E00CD735C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FF63B07420173AC4000892A9 /* EasyNav */ = {
+		FF58B62120270D1E00CD735C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF63B07520173AC4000892A9 /* AppDelegate.swift */,
-				FF63B07720173AC4000892A9 /* ViewController.swift */,
-				FF63B07920173AC4000892A9 /* Main.storyboard */,
-				FFD10A3E20177B6200FF5417 /* Assets.xcassets */,
-				FF63B07E20173AC4000892A9 /* LaunchScreen.storyboard */,
-				FF63B08120173AC4000892A9 /* Info.plist */,
-				FFD10A3A20174D6F00FF5417 /* RoundButton.swift */,
+				FF58B62020270D1E00CD735C /* EasyNav.framework */,
+				FF58B62920270D1E00CD735C /* EasyNavTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF58B62220270D1E00CD735C /* EasyNav */ = {
+			isa = PBXGroup;
+			children = (
+				FF58B62320270D1E00CD735C /* EasyNav.h */,
+				FF58B62420270D1E00CD735C /* Info.plist */,
+				FF58B63A20270D7200CD735C /* menuViewController.swift */,
+				FF3C054620271808007FF078 /* menuViewController.xib */,
+				FFAA5FB620271020007AB59B /* iconMenu.xcassets */,
+				FFAA5FC22027121B007AB59B /* RoundButton.swift */,
 			);
 			path = EasyNav;
 			sourceTree = "<group>";
 		};
-		FF63B08920173AC4000892A9 /* EasyNavTests */ = {
+		FF58B62D20270D1E00CD735C /* EasyNavTests */ = {
 			isa = PBXGroup;
 			children = (
-				FF63B08A20173AC4000892A9 /* EasyNavTests.swift */,
-				FF63B08C20173AC4000892A9 /* Info.plist */,
+				FF58B62E20270D1E00CD735C /* EasyNavTests.swift */,
+				FF58B63020270D1E00CD735C /* Info.plist */,
 			);
 			path = EasyNavTests;
 			sourceTree = "<group>";
 		};
-		FFD10A2F20173FDD00FF5417 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		FF58B61D20270D1E00CD735C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF58B63120270D1E00CD735C /* EasyNav.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		FF63B07120173AC4000892A9 /* EasyNav */ = {
+		FF58B61F20270D1E00CD735C /* EasyNav */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF63B09A20173AC4000892A9 /* Build configuration list for PBXNativeTarget "EasyNav" */;
+			buildConfigurationList = FF58B63420270D1E00CD735C /* Build configuration list for PBXNativeTarget "EasyNav" */;
 			buildPhases = (
-				FF63B06E20173AC4000892A9 /* Sources */,
-				FF63B06F20173AC4000892A9 /* Frameworks */,
-				FF63B07020173AC4000892A9 /* Resources */,
+				FF58B61B20270D1E00CD735C /* Sources */,
+				FF58B61C20270D1E00CD735C /* Frameworks */,
+				FF58B61D20270D1E00CD735C /* Headers */,
+				FF58B61E20270D1E00CD735C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -130,109 +127,77 @@
 			);
 			name = EasyNav;
 			productName = EasyNav;
-			productReference = FFD10A36201744A200FF5417 /* EasyNav.app */;
-			productType = "com.apple.product-type.application";
+			productReference = FF58B62020270D1E00CD735C /* EasyNav.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		FF63B08520173AC4000892A9 /* EasyNavTests */ = {
+		FF58B62820270D1E00CD735C /* EasyNavTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF63B09D20173AC4000892A9 /* Build configuration list for PBXNativeTarget "EasyNavTests" */;
+			buildConfigurationList = FF58B63720270D1E00CD735C /* Build configuration list for PBXNativeTarget "EasyNavTests" */;
 			buildPhases = (
-				FF63B08220173AC4000892A9 /* Sources */,
-				FF63B08320173AC4000892A9 /* Frameworks */,
-				FF63B08420173AC4000892A9 /* Resources */,
+				FF58B62520270D1E00CD735C /* Sources */,
+				FF58B62620270D1E00CD735C /* Frameworks */,
+				FF58B62720270D1E00CD735C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FF63B08820173AC4000892A9 /* PBXTargetDependency */,
+				FF58B62C20270D1E00CD735C /* PBXTargetDependency */,
 			);
 			name = EasyNavTests;
 			productName = EasyNavTests;
-			productReference = FFD10A4220177C5800FF5417 /* EasyNavTests.xctest */;
+			productReference = FF58B62920270D1E00CD735C /* EasyNavTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		FF63B09020173AC4000892A9 /* EasyNavUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF63B0A020173AC4000892A9 /* Build configuration list for PBXNativeTarget "EasyNavUITests" */;
-			buildPhases = (
-				FF63B08D20173AC4000892A9 /* Sources */,
-				FF63B08E20173AC4000892A9 /* Frameworks */,
-				FF63B08F20173AC4000892A9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FF63B09320173AC4000892A9 /* PBXTargetDependency */,
-			);
-			name = EasyNavUITests;
-			productName = EasyNavUITests;
-			productReference = FFD10A4320177C5800FF5417 /* EasyNavUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FF63B06A20173AC4000892A9 /* Project object */ = {
+		FF58B61720270D1E00CD735C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "group-ios";
 				TargetAttributes = {
-					FF63B07120173AC4000892A9 = {
+					FF58B61F20270D1E00CD735C = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
-					FF63B08520173AC4000892A9 = {
+					FF58B62820270D1E00CD735C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = FF63B07120173AC4000892A9;
-					};
-					FF63B09020173AC4000892A9 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = FF63B07120173AC4000892A9;
 					};
 				};
 			};
-			buildConfigurationList = FF63B06D20173AC4000892A9 /* Build configuration list for PBXProject "EasyNav" */;
+			buildConfigurationList = FF58B61A20270D1E00CD735C /* Build configuration list for PBXProject "EasyNav" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = FF63B06920173AC4000892A9;
-			productRefGroup = FF63B06920173AC4000892A9;
+			mainGroup = FF58B61620270D1E00CD735C;
+			productRefGroup = FF58B62120270D1E00CD735C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF63B07120173AC4000892A9 /* EasyNav */,
-				FF63B08520173AC4000892A9 /* EasyNavTests */,
-				FF63B09020173AC4000892A9 /* EasyNavUITests */,
+				FF58B61F20270D1E00CD735C /* EasyNav */,
+				FF58B62820270D1E00CD735C /* EasyNavTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FF63B07020173AC4000892A9 /* Resources */ = {
+		FF58B61E20270D1E00CD735C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF63B08020173AC4000892A9 /* LaunchScreen.storyboard in Resources */,
-				FFD10A3F20177B6200FF5417 /* Assets.xcassets in Resources */,
-				FF63B07B20173AC4000892A9 /* Main.storyboard in Resources */,
+				FF3C054420271808007FF078 /* menuViewController.xib in Resources */,
+				FFAA5FB720271020007AB59B /* iconMenu.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF63B08420173AC4000892A9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF63B08F20173AC4000892A9 /* Resources */ = {
+		FF58B62720270D1E00CD735C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -242,67 +207,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FF63B06E20173AC4000892A9 /* Sources */ = {
+		FF58B61B20270D1E00CD735C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFD10A3B20174D6F00FF5417 /* RoundButton.swift in Sources */,
-				FF63B07820173AC4000892A9 /* ViewController.swift in Sources */,
-				FF63B07620173AC4000892A9 /* AppDelegate.swift in Sources */,
+				FFAA5FC32027121B007AB59B /* RoundButton.swift in Sources */,
+				FF58B63C20270D7200CD735C /* menuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF63B08220173AC4000892A9 /* Sources */ = {
+		FF58B62520270D1E00CD735C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF63B08B20173AC4000892A9 /* EasyNavTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF63B08D20173AC4000892A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				FF58B62F20270D1E00CD735C /* EasyNavTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FF63B08820173AC4000892A9 /* PBXTargetDependency */ = {
+		FF58B62C20270D1E00CD735C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FF63B07120173AC4000892A9 /* EasyNav */;
-			targetProxy = FF63B08720173AC4000892A9 /* PBXContainerItemProxy */;
-		};
-		FF63B09320173AC4000892A9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FF63B07120173AC4000892A9 /* EasyNav */;
-			targetProxy = FF63B09220173AC4000892A9 /* PBXContainerItemProxy */;
+			target = FF58B61F20270D1E00CD735C /* EasyNav */;
+			targetProxy = FF58B62B20270D1E00CD735C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FF63B07920173AC4000892A9 /* Main.storyboard */ = {
+		FF3C054620271808007FF078 /* menuViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FF63B07A20173AC4000892A9 /* Base */,
+				FF3C054520271808007FF078 /* en */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FF63B07E20173AC4000892A9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF63B07F20173AC4000892A9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = menuViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FF63B09820173AC4000892A9 /* Debug */ = {
+		FF58B63220270D1E00CD735C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,6 +277,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -356,10 +301,12 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		FF63B09920173AC4000892A9 /* Release */ = {
+		FF58B63320270D1E00CD735C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -390,6 +337,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -406,44 +354,58 @@
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		FF63B09B20173AC4000892A9 /* Debug */ = {
+		FF58B63520270D1E00CD735C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = EasyNav/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "group-ios.EasyNav";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FF63B09C20173AC4000892A9 /* Release */ = {
+		FF58B63620270D1E00CD735C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = EasyNav/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "group-ios.EasyNav";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		FF63B09E20173AC4000892A9 /* Debug */ = {
+		FF58B63820270D1E00CD735C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EasyNavTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -451,15 +413,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyNav.app/EasyNav";
 			};
 			name = Debug;
 		};
-		FF63B09F20173AC4000892A9 /* Release */ = {
+		FF58B63920270D1E00CD735C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EasyNavTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -467,80 +427,40 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyNav.app/EasyNav";
-			};
-			name = Release;
-		};
-		FF63B0A120173AC4000892A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EasyNavUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "group-ios.EasyNavUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EasyNav;
-			};
-			name = Debug;
-		};
-		FF63B0A220173AC4000892A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EasyNavUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "group-ios.EasyNavUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EasyNav;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF63B06D20173AC4000892A9 /* Build configuration list for PBXProject "EasyNav" */ = {
+		FF58B61A20270D1E00CD735C /* Build configuration list for PBXProject "EasyNav" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF63B09820173AC4000892A9 /* Debug */,
-				FF63B09920173AC4000892A9 /* Release */,
+				FF58B63220270D1E00CD735C /* Debug */,
+				FF58B63320270D1E00CD735C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF63B09A20173AC4000892A9 /* Build configuration list for PBXNativeTarget "EasyNav" */ = {
+		FF58B63420270D1E00CD735C /* Build configuration list for PBXNativeTarget "EasyNav" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF63B09B20173AC4000892A9 /* Debug */,
-				FF63B09C20173AC4000892A9 /* Release */,
+				FF58B63520270D1E00CD735C /* Debug */,
+				FF58B63620270D1E00CD735C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF63B09D20173AC4000892A9 /* Build configuration list for PBXNativeTarget "EasyNavTests" */ = {
+		FF58B63720270D1E00CD735C /* Build configuration list for PBXNativeTarget "EasyNavTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF63B09E20173AC4000892A9 /* Debug */,
-				FF63B09F20173AC4000892A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FF63B0A020173AC4000892A9 /* Build configuration list for PBXNativeTarget "EasyNavUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FF63B0A120173AC4000892A9 /* Debug */,
-				FF63B0A220173AC4000892A9 /* Release */,
+				FF58B63820270D1E00CD735C /* Debug */,
+				FF58B63920270D1E00CD735C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FF63B06A20173AC4000892A9 /* Project object */;
+	rootObject = FF58B61720270D1E00CD735C /* Project object */;
 }

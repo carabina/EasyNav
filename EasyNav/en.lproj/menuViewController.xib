@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="menuViewController" customModule="EasyNav" customModuleProvider="target">
+            <connections>
+                <outlet property="contactButton" destination="51X-n5-nH0" id="9OJ-et-Knr"/>
+                <outlet property="messageButton" destination="65a-l4-YFI" id="Ygu-7k-CZ1"/>
+                <outlet property="moreButton" destination="xhS-Ai-UNn" id="09e-cK-Nx4"/>
+                <outlet property="phoneButton" destination="qd8-Ro-AXv" id="5OJ-Y1-X59"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xhS-Ai-UNn" customClass="RoundButton" customModule="EasyNav">
+                    <rect key="frame" x="162" y="567" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="NJy-P8-snj"/>
+                        <constraint firstAttribute="width" constant="50" id="dPb-bh-9ZZ"/>
+                    </constraints>
+                    <state key="normal" image="menu_on"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qd8-Ro-AXv" customClass="RoundButton" customModule="EasyNav">
+                    <rect key="frame" x="87" y="517" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="BWw-xC-qsE"/>
+                        <constraint firstAttribute="width" constant="50" id="TBy-fj-8ov"/>
+                    </constraints>
+                    <state key="normal" image="call_on"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51X-n5-nH0" customClass="RoundButton" customModule="EasyNav">
+                    <rect key="frame" x="162.5" y="467" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="YD7-Ka-c4Z"/>
+                        <constraint firstAttribute="width" constant="50" id="v1w-44-rtz"/>
+                    </constraints>
+                    <state key="normal" image="contact_on"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65a-l4-YFI" customClass="RoundButton" customModule="EasyNav">
+                    <rect key="frame" x="237" y="517" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Ef5-vF-rUN"/>
+                        <constraint firstAttribute="width" constant="50" id="G3F-59-gcI"/>
+                    </constraints>
+                    <state key="normal" image="message_on"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="65a-l4-YFI" firstAttribute="leading" secondItem="xhS-Ai-UNn" secondAttribute="trailing" constant="25" id="6NH-rc-6I6"/>
+                <constraint firstItem="xhS-Ai-UNn" firstAttribute="top" secondItem="qd8-Ro-AXv" secondAttribute="bottom" id="SPq-Q5-hMG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="xhS-Ai-UNn" secondAttribute="bottom" constant="50" id="TzH-2F-F66"/>
+                <constraint firstItem="51X-n5-nH0" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="W4G-Nz-QyY"/>
+                <constraint firstItem="xhS-Ai-UNn" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="dJz-lA-PnB"/>
+                <constraint firstItem="xhS-Ai-UNn" firstAttribute="top" secondItem="51X-n5-nH0" secondAttribute="bottom" constant="50" id="hlv-AG-SVK"/>
+                <constraint firstItem="xhS-Ai-UNn" firstAttribute="leading" secondItem="qd8-Ro-AXv" secondAttribute="trailing" constant="25" id="sZY-Ht-35Y"/>
+                <constraint firstItem="xhS-Ai-UNn" firstAttribute="top" secondItem="65a-l4-YFI" secondAttribute="bottom" id="tXv-zt-WU8"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="call_on" width="16" height="16"/>
+        <image name="contact_on" width="16" height="16"/>
+        <image name="menu_on" width="16" height="16"/>
+        <image name="message_on" width="16" height="16"/>
+    </resources>
+</document>
