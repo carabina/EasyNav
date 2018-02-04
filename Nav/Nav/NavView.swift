@@ -36,11 +36,36 @@ import UIKit
             button.setImage(onImage, for: .normal)
         }
     }
-
-
-    
     @IBAction func moreButtonClick(_ sender: UIButton) {
         buttonClick(button: sender, onImage: #imageLiteral(resourceName: "menu_on"), offImage: #imageLiteral(resourceName: "menu_off"))
+        if(phoneButton.center != moreButton.center && contactButton.center != moreButton.center && messageButton.center != moreButton.center){
+            UIView.animate(withDuration: 0.3, animations: {
+                self.phoneButton.alpha = 0
+                self.contactButton.alpha = 0
+                self.messageButton.alpha = 0
+                self.phoneButton.center = self.moreButton.center
+                self.contactButton.center = self.moreButton.center
+                self.messageButton.center = self.moreButton.center
+            })
+        }else{
+            UIView.animate(withDuration: 0.3, animations: {
+                self.phoneButton.alpha = 1
+                self.contactButton.alpha = 1
+                self.messageButton.alpha = 1
+                self.phoneButton.center = CGPoint(x: 110, y: 600)
+                self.messageButton.center = CGPoint(x: 263, y: 600)
+                self.contactButton.center = CGPoint(x: 187, y: 550)
+                self.phoneButton.setImage(#imageLiteral(resourceName: "call_on"), for: .normal)
+                self.phoneButton.backgroundColor = UIColor.white
+                self.phoneButton.setImage(#imageLiteral(resourceName: "call_on"), for: .normal)
+                self.contactButton.backgroundColor = UIColor.white
+                self.contactButton.setImage(#imageLiteral(resourceName: "contact_on"), for: .normal)
+                self.messageButton.backgroundColor = UIColor.white
+                self.messageButton.setImage(#imageLiteral(resourceName: "message_on"), for: .normal)
+                
+            })
+            
+        }
     }
     
     @IBAction func phoneButtonClick(_ sender: UIButton) {
