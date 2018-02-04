@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F30182027846B001BBAD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7F30172027846B001BBAD0 /* AppDelegate.swift */; };
 		FF7F301A2027846B001BBAD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7F30192027846B001BBAD0 /* ViewController.swift */; };
 		FF7F301D2027846B001BBAD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7F301B2027846B001BBAD0 /* Main.storyboard */; };
@@ -34,6 +35,24 @@
 			proxyType = 1;
 			remoteGlobalIDString = FF7F30132027846B001BBAD0;
 			remoteInfo = Nav;
+=======
+		FF3C054420271808007FF078 /* menuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF3C054620271808007FF078 /* menuViewController.xib */; };
+		FF58B62A20270D1E00CD735C /* EasyNav.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF58B62020270D1E00CD735C /* EasyNav.framework */; };
+		FF58B62F20270D1E00CD735C /* EasyNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF58B62E20270D1E00CD735C /* EasyNavTests.swift */; };
+		FF58B63120270D1E00CD735C /* EasyNav.h in Headers */ = {isa = PBXBuildFile; fileRef = FF58B62320270D1E00CD735C /* EasyNav.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF58B63C20270D7200CD735C /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF58B63A20270D7200CD735C /* menuViewController.swift */; };
+		FFAA5FB720271020007AB59B /* iconMenu.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFAA5FB620271020007AB59B /* iconMenu.xcassets */; };
+		FFAA5FC32027121B007AB59B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAA5FC22027121B007AB59B /* RoundButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF58B62B20270D1E00CD735C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF58B61720270D1E00CD735C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF58B61F20270D1E00CD735C;
+			remoteInfo = EasyNav;
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 		};
 /* End PBXContainerItemProxy section */
 
@@ -52,6 +71,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F30142027846B001BBAD0 /* Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7F30172027846B001BBAD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF7F30192027846B001BBAD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +93,22 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		FF7F30112027846B001BBAD0 /* Frameworks */ = {
+=======
+		FF3C054520271808007FF078 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/menuViewController.xib; sourceTree = "<group>"; };
+		FF58B62020270D1E00CD735C /* EasyNav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyNav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF58B62320270D1E00CD735C /* EasyNav.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyNav.h; sourceTree = "<group>"; };
+		FF58B62420270D1E00CD735C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF58B62920270D1E00CD735C /* EasyNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF58B62E20270D1E00CD735C /* EasyNavTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyNavTests.swift; sourceTree = "<group>"; };
+		FF58B63020270D1E00CD735C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF58B63A20270D7200CD735C /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		FFAA5FB620271020007AB59B /* iconMenu.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = iconMenu.xcassets; sourceTree = "<group>"; };
+		FFAA5FC22027121B007AB59B /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF58B61C20270D1E00CD735C /* Frameworks */ = {
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,6 +116,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F30252027846C001BBAD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,15 +125,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FF7F30302027846C001BBAD0 /* Frameworks */ = {
+=======
+		FF58B62620270D1E00CD735C /* Frameworks */ = {
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF58B62A20270D1E00CD735C /* EasyNav.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F300B2027846B001BBAD0 = {
 			isa = PBXGroup;
 			children = (
@@ -114,10 +156,19 @@
 				FF7F30142027846B001BBAD0 /* Nav.app */,
 				FF7F30282027846C001BBAD0 /* NavTests.xctest */,
 				FF7F30332027846C001BBAD0 /* NavUITests.xctest */,
+=======
+		FF58B61620270D1E00CD735C = {
+			isa = PBXGroup;
+			children = (
+				FF58B62220270D1E00CD735C /* EasyNav */,
+				FF58B62D20270D1E00CD735C /* EasyNavTests */,
+				FF58B62120270D1E00CD735C /* Products */,
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F30162027846B001BBAD0 /* Nav */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,11 +201,54 @@
 				FF7F30392027846C001BBAD0 /* Info.plist */,
 			);
 			path = NavUITests;
+=======
+		FF58B62120270D1E00CD735C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF58B62020270D1E00CD735C /* EasyNav.framework */,
+				FF58B62920270D1E00CD735C /* EasyNavTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF58B62220270D1E00CD735C /* EasyNav */ = {
+			isa = PBXGroup;
+			children = (
+				FF58B62320270D1E00CD735C /* EasyNav.h */,
+				FF58B62420270D1E00CD735C /* Info.plist */,
+				FF58B63A20270D7200CD735C /* menuViewController.swift */,
+				FF3C054620271808007FF078 /* menuViewController.xib */,
+				FFAA5FB620271020007AB59B /* iconMenu.xcassets */,
+				FFAA5FC22027121B007AB59B /* RoundButton.swift */,
+			);
+			path = EasyNav;
+			sourceTree = "<group>";
+		};
+		FF58B62D20270D1E00CD735C /* EasyNavTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF58B62E20270D1E00CD735C /* EasyNavTests.swift */,
+				FF58B63020270D1E00CD735C /* Info.plist */,
+			);
+			path = EasyNavTests;
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		FF58B61D20270D1E00CD735C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF58B63120270D1E00CD735C /* EasyNav.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F30132027846B001BBAD0 /* Nav */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF7F303C2027846C001BBAD0 /* Build configuration list for PBXNativeTarget "Nav" */;
@@ -163,11 +257,22 @@
 				FF7F30112027846B001BBAD0 /* Frameworks */,
 				FF7F30122027846B001BBAD0 /* Resources */,
 				FFCCB3E420279EF900B2DEB2 /* Embed Frameworks */,
+=======
+		FF58B61F20270D1E00CD735C /* EasyNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF58B63420270D1E00CD735C /* Build configuration list for PBXNativeTarget "EasyNav" */;
+			buildPhases = (
+				FF58B61B20270D1E00CD735C /* Sources */,
+				FF58B61C20270D1E00CD735C /* Frameworks */,
+				FF58B61D20270D1E00CD735C /* Headers */,
+				FF58B61E20270D1E00CD735C /* Resources */,
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 			name = Nav;
 			productName = Nav;
 			productReference = FF7F30142027846B001BBAD0 /* Nav.app */;
@@ -180,10 +285,25 @@
 				FF7F30242027846C001BBAD0 /* Sources */,
 				FF7F30252027846C001BBAD0 /* Frameworks */,
 				FF7F30262027846C001BBAD0 /* Resources */,
+=======
+			name = EasyNav;
+			productName = EasyNav;
+			productReference = FF58B62020270D1E00CD735C /* EasyNav.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF58B62820270D1E00CD735C /* EasyNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF58B63720270D1E00CD735C /* Build configuration list for PBXNativeTarget "EasyNavTests" */;
+			buildPhases = (
+				FF58B62520270D1E00CD735C /* Sources */,
+				FF58B62620270D1E00CD735C /* Frameworks */,
+				FF58B62720270D1E00CD735C /* Resources */,
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			);
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 				FF7F302A2027846C001BBAD0 /* PBXTargetDependency */,
 			);
 			name = NavTests;
@@ -213,16 +333,37 @@
 
 /* Begin PBXProject section */
 		FF7F300C2027846B001BBAD0 /* Project object */ = {
+=======
+				FF58B62C20270D1E00CD735C /* PBXTargetDependency */,
+			);
+			name = EasyNavTests;
+			productName = EasyNavTests;
+			productReference = FF58B62920270D1E00CD735C /* EasyNavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF58B61720270D1E00CD735C /* Project object */ = {
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 				ORGANIZATIONNAME = ios;
 				TargetAttributes = {
 					FF7F30132027846B001BBAD0 = {
+=======
+				ORGANIZATIONNAME = "group-ios";
+				TargetAttributes = {
+					FF58B61F20270D1E00CD735C = {
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 					FF7F30272027846C001BBAD0 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -236,13 +377,22 @@
 				};
 			};
 			buildConfigurationList = FF7F300F2027846B001BBAD0 /* Build configuration list for PBXProject "Nav" */;
+=======
+					FF58B62820270D1E00CD735C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF58B61A20270D1E00CD735C /* Build configuration list for PBXProject "EasyNav" */;
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 			mainGroup = FF7F300B2027846B001BBAD0;
 			productRefGroup = FF7F30152027846B001BBAD0 /* Products */;
 			projectDirPath = "";
@@ -251,11 +401,21 @@
 				FF7F30132027846B001BBAD0 /* Nav */,
 				FF7F30272027846C001BBAD0 /* NavTests */,
 				FF7F30322027846C001BBAD0 /* NavUITests */,
+=======
+			mainGroup = FF58B61620270D1E00CD735C;
+			productRefGroup = FF58B62120270D1E00CD735C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF58B61F20270D1E00CD735C /* EasyNav */,
+				FF58B62820270D1E00CD735C /* EasyNavTests */,
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F30122027846B001BBAD0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,6 +434,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FF7F30312027846C001BBAD0 /* Resources */ = {
+=======
+		FF58B61E20270D1E00CD735C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3C054420271808007FF078 /* menuViewController.xib in Resources */,
+				FFAA5FB720271020007AB59B /* iconMenu.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF58B62720270D1E00CD735C /* Resources */ = {
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -283,6 +455,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F30102027846B001BBAD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,12 +480,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF7F30382027846C001BBAD0 /* NavUITests.swift in Sources */,
+=======
+		FF58B61B20270D1E00CD735C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAA5FC32027121B007AB59B /* RoundButton.swift in Sources */,
+				FF58B63C20270D7200CD735C /* menuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF58B62520270D1E00CD735C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF58B62F20270D1E00CD735C /* EasyNavTests.swift in Sources */,
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F302A2027846C001BBAD0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FF7F30132027846B001BBAD0 /* Nav */;
@@ -322,10 +512,17 @@
 			isa = PBXTargetDependency;
 			target = FF7F30132027846B001BBAD0 /* Nav */;
 			targetProxy = FF7F30342027846C001BBAD0 /* PBXContainerItemProxy */;
+=======
+		FF58B62C20270D1E00CD735C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF58B61F20270D1E00CD735C /* EasyNav */;
+			targetProxy = FF58B62B20270D1E00CD735C /* PBXContainerItemProxy */;
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F301B2027846B001BBAD0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -340,12 +537,24 @@
 				FF7F30212027846B001BBAD0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+=======
+		FF3C054620271808007FF078 /* menuViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3C054520271808007FF078 /* en */,
+			);
+			name = menuViewController.xib;
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F303A2027846C001BBAD0 /* Debug */ = {
+=======
+		FF58B63220270D1E00CD735C /* Debug */ = {
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,6 +585,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -399,10 +609,16 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F303B2027846C001BBAD0 /* Release */ = {
+=======
+		FF58B63320270D1E00CD735C /* Release */ = {
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -433,6 +649,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -449,44 +666,86 @@
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F303D2027846C001BBAD0 /* Debug */ = {
+=======
+		FF58B63520270D1E00CD735C /* Debug */ = {
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Nav/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ios.Nav;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+=======
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EasyNav/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "group-ios.EasyNav";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F303E2027846C001BBAD0 /* Release */ = {
+=======
+		FF58B63620270D1E00CD735C /* Release */ = {
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Nav/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ios.Nav;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+=======
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EasyNav/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "group-ios.EasyNav";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F30402027846C001BBAD0 /* Debug */ = {
+=======
+		FF58B63820270D1E00CD735C /* Debug */ = {
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NavTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -494,15 +753,21 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nav.app/Nav";
 			};
 			name = Debug;
 		};
 		FF7F30412027846C001BBAD0 /* Release */ = {
+=======
+			};
+			name = Debug;
+		};
+		FF58B63920270D1E00CD735C /* Release */ = {
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NavTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -510,6 +775,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nav.app/Nav";
 			};
 			name = Release;
@@ -541,12 +807,15 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Nav;
+=======
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F300F2027846B001BBAD0 /* Build configuration list for PBXProject "Nav" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -561,29 +830,56 @@
 			buildConfigurations = (
 				FF7F303D2027846C001BBAD0 /* Debug */,
 				FF7F303E2027846C001BBAD0 /* Release */,
+=======
+		FF58B61A20270D1E00CD735C /* Build configuration list for PBXProject "EasyNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF58B63220270D1E00CD735C /* Debug */,
+				FF58B63320270D1E00CD735C /* Release */,
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F303F2027846C001BBAD0 /* Build configuration list for PBXNativeTarget "NavTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF7F30402027846C001BBAD0 /* Debug */,
 				FF7F30412027846C001BBAD0 /* Release */,
+=======
+		FF58B63420270D1E00CD735C /* Build configuration list for PBXNativeTarget "EasyNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF58B63520270D1E00CD735C /* Debug */,
+				FF58B63620270D1E00CD735C /* Release */,
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 		FF7F30422027846C001BBAD0 /* Build configuration list for PBXNativeTarget "NavUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF7F30432027846C001BBAD0 /* Debug */,
 				FF7F30442027846C001BBAD0 /* Release */,
+=======
+		FF58B63720270D1E00CD735C /* Build configuration list for PBXNativeTarget "EasyNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF58B63820270D1E00CD735C /* Debug */,
+				FF58B63920270D1E00CD735C /* Release */,
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
+<<<<<<< HEAD:Nav/Nav.xcodeproj/project.pbxproj
 	rootObject = FF7F300C2027846B001BBAD0 /* Project object */;
+=======
+	rootObject = FF58B61720270D1E00CD735C /* Project object */;
+>>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNav.xcodeproj/project.pbxproj
 }

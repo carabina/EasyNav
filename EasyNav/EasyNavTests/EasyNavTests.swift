@@ -1,19 +1,15 @@
 //
-//  NavTests.swift
-//  NavTests
+//  EasyNavTests.swift
+//  EasyNavTests
 //
 //  Created by elena verona on 04/02/2018.
-<<<<<<< HEAD:Nav/NavTests/NavTests.swift
-//  Copyright © 2018 ios. All rights reserved.
-=======
 //  Copyright © 2018 group-ios. All rights reserved.
->>>>>>> 8e4fdbaa6697378a67f6791dd70978152edd4ccc:EasyNavTests/EasyNavTests.swift
 //
 
 import XCTest
-@testable import Nav
+@testable import EasyNav
 
-class NavTests: XCTestCase {
+class EasyNavTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
