@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NavView" customModule="Nav" customModuleProvider="target">
+            <connections>
+                <outlet property="contactButton" destination="T0p-GL-9L3" id="1Yz-8L-EEz"/>
+                <outlet property="messageButton" destination="Zfa-s7-EhJ" id="8sb-Au-KQ8"/>
+                <outlet property="moreButton" destination="CaM-fX-QWJ" id="9b3-BS-j9F"/>
+                <outlet property="phoneButton" destination="UJg-OP-t93" id="T3F-ZK-vr9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CaM-fX-QWJ" customClass="RoundButton" customModule="Nav" customModuleProvider="target">
+                    <rect key="frame" x="125.5" y="200" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="FpF-XR-lEM"/>
+                        <constraint firstAttribute="width" constant="50" id="bX3-H5-CD9"/>
+                    </constraints>
+                    <state key="normal" image="menu_on">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="moreButtonClick:" destination="-1" eventType="touchUpInside" id="nun-U0-7wc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJg-OP-t93" customClass="RoundButton" customModule="Nav" customModuleProvider="target">
+                    <rect key="frame" x="50.5" y="175" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="P4j-TY-sv3"/>
+                        <constraint firstAttribute="width" constant="50" id="rjd-8s-o5K"/>
+                    </constraints>
+                    <state key="normal" image="call_on">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="phoneButtonClick:" destination="-1" eventType="touchUpInside" id="iEE-rm-oKQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T0p-GL-9L3" customClass="RoundButton" customModule="Nav" customModuleProvider="target">
+                    <rect key="frame" x="125" y="125" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="IiT-HM-7j7"/>
+                        <constraint firstAttribute="width" constant="50" id="sUh-If-T9d"/>
+                    </constraints>
+                    <state key="normal" image="contact_on">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="contactButtonClick:" destination="-1" eventType="touchUpInside" id="Hpj-B0-F9Z"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zfa-s7-EhJ" customClass="RoundButton" customModule="Nav" customModuleProvider="target">
+                    <rect key="frame" x="200.5" y="175" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="3bQ-pP-cQ9"/>
+                        <constraint firstAttribute="height" constant="50" id="x1x-wY-hAK"/>
+                    </constraints>
+                    <state key="normal" image="message_on">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="messageButtonClick:" destination="-1" eventType="touchUpInside" id="nzH-8V-Ba8"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="CaM-fX-QWJ" firstAttribute="top" secondItem="UJg-OP-t93" secondAttribute="bottom" constant="-25" id="3pK-8s-UG4"/>
+                <constraint firstAttribute="bottom" secondItem="CaM-fX-QWJ" secondAttribute="bottom" constant="50" id="CFh-B7-MZu"/>
+                <constraint firstItem="T0p-GL-9L3" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="KPP-un-w1m"/>
+                <constraint firstItem="CaM-fX-QWJ" firstAttribute="leading" secondItem="UJg-OP-t93" secondAttribute="trailing" constant="25" id="YeV-zz-sNO"/>
+                <constraint firstItem="Zfa-s7-EhJ" firstAttribute="leading" secondItem="CaM-fX-QWJ" secondAttribute="trailing" constant="25" id="aQc-GL-T1r"/>
+                <constraint firstItem="CaM-fX-QWJ" firstAttribute="top" secondItem="T0p-GL-9L3" secondAttribute="bottom" constant="25" id="btz-sU-xEM"/>
+                <constraint firstItem="CaM-fX-QWJ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vvg-CG-Aku"/>
+                <constraint firstItem="CaM-fX-QWJ" firstAttribute="top" secondItem="Zfa-s7-EhJ" secondAttribute="bottom" constant="-25" id="xje-bu-fu7"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="53" y="-45"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="call_on" width="16" height="16"/>
+        <image name="contact_on" width="16" height="16"/>
+        <image name="menu_on" width="16" height="16"/>
+        <image name="message_on" width="16" height="16"/>
+    </resources>
+</document>
