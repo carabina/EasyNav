@@ -1,2 +1,9 @@
 language: swift
 osx_image: xcode9
+notifications:
+  email:
+    recipients: "-moncifloukili@gmail.com -verona.elena00@gmail.com  -yoannbriancourt11@gmail.com"
+    on_success: never
+    on_failure: always
+  
+  slack: 4moc:VrUnOlAIy82xYngrAqZdblDe
