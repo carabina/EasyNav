@@ -31,14 +31,14 @@ You will need CocoaPods to use the EasyNav
 
 In order to Integrate EasyNav to your XCode Project , specify it in your PodFile
 
-pod 'EasyNav','~> 1.0.0'
+pod 'EasyNav','~> 1.0.1'
 
 then in your code add 'Import EasyNav'
 
 
 ## Utilisation
 
-USAGE DU FRAMEWORK COMMENT L'INTEGRER ...
+//TODO
 
 ## Licence
 
